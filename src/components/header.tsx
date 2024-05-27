@@ -10,12 +10,19 @@ export const Header = () => {
       </h2>
 
       <div className="flex gap-6 ml-auto items-center">
-        <MyLink>Blog</MyLink>
-        <MyLink>Projects</MyLink>
-        <MyLink>
+        <MyLink location="/blog" type="Internal">
+          Blog
+        </MyLink>
+        <MyLink location="/projects" type="Internal">
+          Projects
+        </MyLink>
+        <MyLink location="https://github.com/Rec0iL99" type="External">
           <IconBrandGithub size={"21"} />
         </MyLink>
-        <MyLink>
+        <MyLink
+          location="https://www.linkedin.com/in/joel-mathew-koshy"
+          type="External"
+        >
           <IconBrandLinkedin size={"21"} />
         </MyLink>
       </div>
