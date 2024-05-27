@@ -9,6 +9,7 @@
     "start": "waku start"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.5.0",
     "react": "19.0.0-beta-e7d213dfb0-20240507",
     "react-dom": "19.0.0-beta-e7d213dfb0-20240507",
     "react-server-dom-webpack": "19.0.0-beta-e7d213dfb0-20240507",
